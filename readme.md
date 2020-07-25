@@ -28,3 +28,11 @@ deno run --allow-net fetch.ts
     body: "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas..."
 }
 ```
+
+## dateTime.ts
+
+```javascript
+// dateTime.ts
+deno run datetime.ts
+2019-01-19T21:00:00.000Z
+```
