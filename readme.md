@@ -8,13 +8,15 @@
 
 # deno-examples
 
-**easy-js-utils** some basic examples of deno
+some basic examples of deno
 
 ## Installation
 
 You have to install deno [deno](https://deno.land/#installation):
 
 # Usage
+
+## fetch.ts
 
 ```javascript
 // fetch.ts
