@@ -5,6 +5,8 @@
 - [deno-examples](#deno-examples)
   - [Installation](#installation)
 - [Usage](#usage)
+  - [fetch](## fetch.ts)
+  - [dateTime](## dateTime.ts)
 
 # deno-examples
 
@@ -12,7 +14,7 @@ some basic examples of deno
 
 ## Installation
 
-You have to install deno [deno](https://deno.land/#installation):
+You have to install [deno](https://deno.land/#installation):
 
 # Usage
 
