@@ -8,6 +8,7 @@
   - [fetch](##fetch.ts)
   - [dateTime](##dateTime.ts)
   - [server](##server.ts)
+  - [camelCase](##camelCase.ts)
 
 # deno-examples
 
@@ -48,7 +49,7 @@ deno run --allow-net server.ts
 // Go to http://localhost:8000 to run the app
 ```
 
-## camelCase.ts
+##camelCase.ts
 
 ```javascript
 // camelCase.ts
