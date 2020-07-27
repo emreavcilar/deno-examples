@@ -45,4 +45,13 @@ deno run datetime.ts
 ```javascript
 // server.ts
 deno run --allow-net server.ts
+// Go to http://localhost:8000 to run the app
+```
+
+## camelCase.ts
+
+```javascript
+// camelCase.ts
+deno run camelCase.ts
+// output foobar
 ```
