@@ -5,8 +5,9 @@
 - [deno-examples](#deno-examples)
   - [Installation](#installation)
 - [Usage](#usage)
-  - [fetch](## fetch.ts)
-  - [dateTime](## dateTime.ts)
+  - [fetch](##fetch.ts)
+  - [dateTime](##dateTime.ts)
+  - [server](##server.ts)
 
 # deno-examples
 
@@ -37,4 +38,11 @@ deno run --allow-net fetch.ts
 // dateTime.ts
 deno run datetime.ts
 2019-01-19T21:00:00.000Z
+```
+
+## server.ts
+
+```javascript
+// server.ts
+deno run --allow-net server.ts
 ```
