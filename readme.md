@@ -49,7 +49,7 @@ deno run datetime.ts
 ```javascript
 // on terminal
 deno run --allow-net server.ts
-// Go to http://localhost:8000 to run the app
+// Then visit http://localhost:8000 to run the app
 ```
 
 ## camelCase.ts
@@ -97,4 +97,12 @@ Compile https://deno.land/std/examples/curl.ts
 deno run --unstable --allow-read --allow-env path.ts
 Compile file:///Users/shinokada/Deno/demo/path.ts
 quux.html
+```
+
+## helloServer.ts -- import map feature
+
+```javascript
+// on terminal
+deno run --allow-net --importmap=importMap.json --unstable helloServer.ts
+// then visit localhost:8000 to see the output
 ```
