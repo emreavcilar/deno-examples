@@ -9,6 +9,8 @@
   - [dateTime](##dateTime.ts)
   - [server](##server.ts)
   - [camelCase](##camelCase.ts)
+  - [myTest](##myTest.ts)
+  - [httpReq](##httpReq.ts)
 
 # deno-examples
 
@@ -60,10 +62,29 @@ deno run camelCase.ts
 ## myTest.ts
 
 ```javascript
-// myTest.ts
+// on terminal
 deno test mytest.ts
 Compile file:///Users/shinokada/Deno/demo/.deno.test.ts
 running 1 tests
 test title ... ok (5ms)
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (6ms)
+```
+
+## httpReq.ts
+
+```javascript
+// on terminal
+Download https://deno.land/std/examples/curl.ts
+Warning Implicitly using master branch https://deno.land/std/examples/curl.ts
+Compile https://deno.land/std/examples/curl.ts
+<!doctype html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+      ...
 ```
