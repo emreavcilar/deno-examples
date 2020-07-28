@@ -11,6 +11,7 @@
   - [camelCase](##camelCase.ts)
   - [myTest](##myTest.ts)
   - [httpReq](##httpReq.ts)
+  - [path](##path.ts)
 
 # deno-examples
 
@@ -87,4 +88,13 @@ Compile https://deno.land/std/examples/curl.ts
     <style type="text/css">
     body {
       ...
+```
+
+## path.ts
+
+```javascript
+// on terminal
+deno run --unstable --allow-read --allow-env path.ts
+Compile file:///Users/shinokada/Deno/demo/path.ts
+quux.html
 ```
