@@ -23,7 +23,7 @@ You have to install [deno](https://deno.land/#installation):
 ## fetch.ts
 
 ```javascript
-// fetch.ts
+// on terminal
 deno run --allow-net fetch.ts
 {
     userId: 1,
@@ -36,7 +36,7 @@ deno run --allow-net fetch.ts
 ## dateTime.ts
 
 ```javascript
-// dateTime.ts
+// on terminal
 deno run datetime.ts
 2019-01-19T21:00:00.000Z
 ```
@@ -44,7 +44,7 @@ deno run datetime.ts
 ## server.ts
 
 ```javascript
-// server.ts
+// on terminal
 deno run --allow-net server.ts
 // Go to http://localhost:8000 to run the app
 ```
@@ -52,7 +52,18 @@ deno run --allow-net server.ts
 ## camelCase.ts
 
 ```javascript
-// camelCase.ts
+// on terminal
 deno run camelCase.ts
 // output foobar
+```
+
+## myTest.ts
+
+```javascript
+// myTest.ts
+deno test mytest.ts
+Compile file:///Users/shinokada/Deno/demo/.deno.test.ts
+running 1 tests
+test title ... ok (5ms)
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (6ms)
 ```
